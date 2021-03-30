@@ -8,16 +8,16 @@ namespace ObserverPatternDemo
         {
             Subject subject = new Subject();
 
-            Observer observer1 = new Observer("Observer 1");
-            subject.Subscribe(observer1);
+            Person person1 = new Person("Person 1");
+            subject.Subscribe(person1);
 
-            Observer observer2 = new Observer("Observer 2");
-            subject.Subscribe(observer2);
+            Person person2 = new Person("Person 2");
+            subject.Subscribe(person2);
 
             subject.Inventory++;
 
-            Observer observer3 = new Observer("Observer 3");
-            subject.Subscribe(observer3);
+            Person person3 = new Person("Person 3");
+            subject.Subscribe(person3);
 
             subject.Inventory++;
 

@@ -8,8 +8,8 @@ namespace ObserverPatternDemo
 {
     interface ISubject
     {
-        void Subscribe(Observer observer);
-        void Unsubscribe(Observer observer);
+        void Subscribe(Person person);
+        void Unsubscribe(Person person);
         void Notify();
     }
 }
